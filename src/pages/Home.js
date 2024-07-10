@@ -6,6 +6,8 @@ import HotelsList from '../components/HotelsList';
 const Home = () => {
   return (
     <div>
+      <br></br>
+      <br></br>
       <HomeCarousel />
       <div className="container mt-5">
         <h1>Willkommen bei ReiseApp! </h1>

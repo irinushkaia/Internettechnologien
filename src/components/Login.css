@@ -1,0 +1,17 @@
+.content {
+    margin-top: 70px; /* Ensure there's enough space for the fixed navbar */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px); /* Full height minus the navbar height */
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  

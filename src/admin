@@ -1,0 +1,8 @@
+var admin = require("firebase-admin");
+
+var serviceAccount = require("../config/internettechnologien-27dcc-firebase-adminsdk-cxr74-cee4fa98fb.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://internettechnologien-27dcc-default-rtdb.europe-west1.firebasedatabase.app"
+});

@@ -1,0 +1,15 @@
+.hotel-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-card .card-body {
+  height: 150px;
+  overflow: hidden;
+}
+
+.hotel-card .card-title, .hotel-card .card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
